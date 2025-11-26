@@ -14,15 +14,15 @@
     margin-left: 15px;
 }
 
-nav {
-    display: flex;
-}
-
 nav ul {
     display: flex;
     gap: 50px;
     list-style: none;
     font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
 header {
@@ -55,8 +55,12 @@ footer {
 
 .about-us {
     font-size: 20px;
-    width: 1000px;
-    margin-left: 250px;
+    width: 80%;
+    text-align: justify center;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 5px;
+
 }
 
 .content p {
