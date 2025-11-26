@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .navbar {
+    background: #c91818;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    gap: 30px;                 /* spacing between items */
+
+    flex-wrap: wrap;           /* allow wrapping on small screens */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.logo {
+    height: 50px;
+}
+    </style>
 </head>
 <body style="background-color: black;">
     <!-- header area here -->
@@ -14,7 +37,7 @@
         </div>
 
         <!-- navigation area here -->
-        <nav>
+        <nav class="navbar">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about-us.html">About us</a></li>
